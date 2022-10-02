@@ -6,9 +6,9 @@ There are around 13 parameters, 10 rows per section, 10 rows show data collected
 Determine value of parameters 9-13 for 10th year for each of 100 sections
 Plot graph depicting the comparison between sensor values and predicted values
 ## Methodology
-Import Road Dataset
-Renamed column(Unnamed to sub_section) and replaced Nan with corresponding section name
-Define test_data by extracting 10th  row from each section
-Transformed the Data into Train and Test Dataset, by extracting 10th year data for parameters 9-13 for every section. Applied Extra Regressor Model, Decision Tree Classifier and Random Forest to compare the results
-Best RMSE=41.49268845443712 from Decision tree Classifier
-Plot scatter-plot between Predicted and True values for parameters 9-13
+1. Import Road Dataset
+2. Renamed column(Unnamed to sub_section) and replaced Nan with corresponding section name
+3. Define test_data by extracting 10th  row from each section
+4. Transformed the Data into Train and Test Dataset, by extracting 10th year data for parameters 9-13 for every section. Applied Extra Regressor Model, Decision Tree Classifier and Random Forest to compare the results
+5. Best RMSE=41.49268845443712 from Decision tree Classifier
+6. Plot scatter-plot between Predicted and True values for parameters 9-13
